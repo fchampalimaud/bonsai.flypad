@@ -1,0 +1,21 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Python scripts to analyze data acquired with the Harp FlyPAD."
+authors = [
+    { name = "José Grilo", email = "jose.grilo@research.fchampalimaud.org" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "harp-python>=0.4.1",
+]
+
+[tool.uv.build-backend]
+module-name = ["analysis"]
+
+[project.scripts]
+analysis = "analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12.0"]
+build-backend = "uv_build"
