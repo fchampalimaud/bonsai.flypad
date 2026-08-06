@@ -47,17 +47,6 @@
           <ObjectTextVisualizer />
         </VisualizerSettings>
       </WindowSettings>
-      <WindowSettings Index="26">
-        <Location>
-          <X>447</X>
-          <Y>-14</Y>
-        </Location>
-        <Size>
-          <Width>254</Width>
-          <Height>233</Height>
-        </Size>
-        <WindowState>Maximized</WindowState>
-      </WindowSettings>
     </NestedLayout>
   </WindowSettings>
 </VisualizerLayout>
