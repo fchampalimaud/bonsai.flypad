@@ -6,9 +6,10 @@ This repository contains the necessary software to acquire data with the [Harp F
 > This project only supports Windows.
 
 ## Installation
-1. Download or clone the repository.
-2. Run the `Setup.cmd` script.
-3. That's it!
+1. Install the drivers for the Harp FlyPAD (download them [here](https://bitbucket.org/fchampalimaud/downloads/downloads/UsbDriver-2.12.26.zip)).
+2. Download or clone the repository.
+3. Run the `Setup.cmd` script.
+4. That's it!
 
 ## Usage
 1. Run the `Run.cmd` to open Bonsai.
@@ -16,7 +17,7 @@ This repository contains the necessary software to acquire data with the [Harp F
 3. Click on the `Start` button or press `F5` to start the workflow.
 4. That's basically it!
 
-> [!NOTE]
+<!-- > [!NOTE]
 > The output from the Harp FlyPAD is saved in the `output` directory, in which each subdirectory corresponds to a different session (identified by date and time). Each session directory contains all of the device's logs as well as the device metadata.
 >
-> When Bonsai is closed, a small Python script is executed which converts the raw capacitance data to the file format saved by the old acquisition system. The name of this file is `FlyPAD_33_12bits.bin`.
+> When Bonsai is closed, a small Python script is executed which converts the raw capacitance data to the file format saved by the old acquisition system. The name of this file is `FlyPAD_33_12bits.bin`. -->
