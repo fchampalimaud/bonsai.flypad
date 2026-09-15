@@ -7,7 +7,7 @@ This repository contains the necessary software to acquire data with the [Harp F
 ## Installation
 1. Install the drivers for the Harp FlyPAD (download them [here](https://bitbucket.org/fchampalimaud/downloads/downloads/UsbDriver-2.12.26.zip)).
 2. Download or clone the repository.
-3. Run the `Setup.cmd` script.
+3. Run the `Setup.cmd` script that is inside the `.bonsai` directory.
 4. That's it!
 
 ## Usage
